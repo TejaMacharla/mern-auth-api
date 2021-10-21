@@ -1,0 +1,9 @@
+const express = require('express');
+const router=express.Router()
+
+router.get('/signup',(req,res)=>{
+    res.json({
+        data:'hi welcome to the ultimate authentication project..'
+    })
+})
+module.exports = router//{}

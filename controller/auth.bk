@@ -1,0 +1,6 @@
+exports.signup=(req,res)=>{
+    console.log('req body on signup',req.body)
+    res.json({
+        data:'hi welcome to the ultimate authentication project  from controller'
+    })
+}
